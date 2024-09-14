@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+	background-image: url(../../1_1_web/public/images/bg_Argyle.jpg);
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+ul{
+	list-style: circle outside;
+}
