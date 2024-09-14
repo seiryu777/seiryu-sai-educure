@@ -13,3 +13,19 @@ p{
 ul{
 	list-style: circle outside;
 }
+.chocolate{
+	height: 150px;
+	width: 200px;
+}
+.table,
+table th,
+table td{
+	background-color: #FFFFCC;
+	border: solid red 1px;
+}
+span{
+	color: red;
+}
+.curry{
+	border: double red 10px; 
+}
