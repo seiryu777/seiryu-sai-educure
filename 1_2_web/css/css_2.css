@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../../1_1_web/public/images/bg_Argyle.jpg);
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px #FFBBFF;
+    box-shadow: 5px 5px #EEEEEE;
+    width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"]{
+	width: 25%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="select"]{
+	width: 5%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+input[type="comment"]{
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+.checkbox-group {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    padding: 4px 8px;
+    margin: 5px;
+    border: solid 1px black;
+    color: black;
+    border-radius: 4px;
+}
+
+.box:hover {
+    background-color: #CCCCCC;
+}
+
+button[type="reset"] {
+    background-color: #cccccc;
+}
+
+button[type="reset"]:hover {
+    background-color: #aaaaaa;
+}

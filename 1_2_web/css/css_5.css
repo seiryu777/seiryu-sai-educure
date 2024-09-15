@@ -1,0 +1,13 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: cornflowerblue;
+  border-radius: 3px;
+}
+nav ul li:hover {
+	background-color: pink;
+}
