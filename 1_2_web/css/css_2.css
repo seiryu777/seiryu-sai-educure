@@ -60,6 +60,9 @@ input[type="radio"] {
     flex-wrap: wrap;
     
 }
+.sample box{
+	display-flex
+}
 
 .box {
     padding: 4px 8px;
@@ -79,4 +82,4 @@ button[type="reset"] {
 
 button[type="reset"]:hover {
     background-color: #aaaaaa;
-}
+}   
