@@ -104,10 +104,9 @@ nav ul li a:hover {
 
 
 .left, .center, .right{
-	text-align: center;
 	display: inline-block;
 	width: 280px;
-	height: 100px;
+	height: 200px;
 	
 }
 
@@ -117,14 +116,19 @@ nav ul li a:hover {
 	display: inline-block;
 }
 
+.under{
+	display: flex;
+	justify-content: space-between;
+}
 
 footer{
 	border-top: solid 1px lightgray;
 	margin-top: 30px;
-
 }
   
 h6{
+	
 	text-align: center;
+	color: gray;
 }
 
