@@ -9,9 +9,9 @@
 <body>
 <%
 String pajama = "akapajamakipajamachapajama";
-int start = pajama.indexOf("pajama");
+int start = pajama.indexOf("pajama")+1;
 out.println(start);
-int end = pajama.lastIndexOf("pajama");
+int end = pajama.lastIndexOf("pajama")+1;
 out.println(end);
 %>
 </body>
