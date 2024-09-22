@@ -22,7 +22,7 @@ if (param != null && !param.isEmpty()) {
         <p>
             <%
             if (num >= 100 || num < 0) {
-                // 何も表示しない
+                
             } else if (num == 100) {
                 out.print("A評価です");
             } else if (num >= 80) {
