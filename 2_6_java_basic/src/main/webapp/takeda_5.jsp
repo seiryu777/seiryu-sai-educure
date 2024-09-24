@@ -13,7 +13,7 @@ String battle = request.getParameter("battle");
 <body>
 <form action="uesugi_5.jsp">
     <input type="text" name="name">
-    <button type="submit">を送る</button><br>
+    <button type="submit">上杉を呼ぶ</button><br>
 <select name="battle" id="battle">
     <option value="">選択してください</option>
     <option value="第一次合戦">第一次合戦</option>

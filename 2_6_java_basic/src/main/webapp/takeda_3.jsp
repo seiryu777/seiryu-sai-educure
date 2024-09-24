@@ -12,7 +12,7 @@ String receive = request.getParameter("name");
 <body>
 <form action="uesugi_3.jsp">
     <input type="text" name="name">
-    <button type="submit">を送る</button>
+    <button type="submit">上杉を呼ぶ</button>
 </form>
 <%
 out.println(receive + "を受け取った。");

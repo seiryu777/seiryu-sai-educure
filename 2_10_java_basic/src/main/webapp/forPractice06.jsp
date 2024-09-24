@@ -7,9 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-for (int i = 0; i < 10; i++) {
-	out.print("*");
+<% 
+for (int i = 0; i < 4; i++) { 
+    for (int j = 0; j <= i; j++) { 
+        out.print("*"); 
+    }
+    out.print("<br>");
 }
 %>
 </body>

@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ishida</title>
+<title>Insert title here</title>
 </head>
-</body>
 <body>
-<form action="otani.jsp" method="post">
-<a href="otani.jsp">大谷を呼ぶ</a>
-</form>
+
+</body>
 </html>

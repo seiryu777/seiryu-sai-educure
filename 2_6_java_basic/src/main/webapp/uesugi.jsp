@@ -9,7 +9,7 @@
 </body>
 <body>
 <form action="takeda.jsp" method="post">
- <input type="text" name="上杉を呼ぶ">
- <button type="submit">送信ボタン</button>
+ <input type="text" name="武田を呼ぶ">
+ <button type="submit">武田を呼ぶ</button>
 </form>
 </html>

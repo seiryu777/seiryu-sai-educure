@@ -14,7 +14,7 @@ String battle = request.getParameter("battle");
 
 <form action="takeda_5.jsp">
     <input type="text" name="name">
-    <button type="submit">を送る</button><br>
+    <button type="submit">武田を呼ぶ</button><br>
 
 <select name="battle" id="battle">
     <option value="">選択してください</option>

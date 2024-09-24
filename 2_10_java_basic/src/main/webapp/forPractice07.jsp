@@ -8,9 +8,13 @@
 </head>
 <body>
 <%
-for (int i = 0; i < 10; i++) {
-	out.print("*");
+for (int i = 0; i < 5; i++) { 
+    for (int j = 0; j < 5 - i; j++) { 
+        out.print("*"); 
+    }
+    out.print("<br>");
 }
+
 %>
 </body>
 </html>

@@ -8,8 +8,7 @@
 </head>
 <body>
 <form action="ishida.jsp" method="post">
- <input type="text" name="大谷を呼ぶ">
- <button type="submit">送信ボタン</button>
+<a href="ishida.jsp">石田を呼ぶ</a>
 </form>
 </body>
 </html>
