@@ -21,9 +21,7 @@ if (param != null && !param.isEmpty()) {
    <div>
         <p>
             <%
-            if (num >= 100 || num < 0) {
-                
-            } else if (num == 100) {
+            if (num >= 100) {
                 out.print("A評価です");
             } else if (num >= 80) {
                 out.print("A評価です");
