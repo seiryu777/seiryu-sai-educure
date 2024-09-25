@@ -1,5 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+try {
+   
+    Integer.parseInt("cant convert");
+    
+} catch (NumberFormatException e) {
+    
+    response.sendRedirect("practice_src_error.html");
+    
+}
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +18,5 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-int i = 0;
-while (i < 10) {
-	out.println(i);
-	i++;
-}
-%>
 </body>
 </html>

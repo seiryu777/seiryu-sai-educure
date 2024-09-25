@@ -9,8 +9,8 @@
 <body>
 <%
 int i = 0;
-while (i < 10) {
-	out.println(i);
+while (i < 5) {
+	out.println(i+"<br>");
 	i++;
 }
 %>
