@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
   pageEncoding="UTF-8"%>
 <%
+  
     // セッションからプレイヤー名を取得する
-    
+   
 %>
 <!DOCTYPE html>
 <html>

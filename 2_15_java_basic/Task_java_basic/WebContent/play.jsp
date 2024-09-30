@@ -2,7 +2,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
   pageEncoding="UTF-8"%>
 <%
-        
+  
+    
     // 残数の更新処理(残数の取得、更新、保存など)    
     int totalNum = 25;  // 残数用の変数。仮で25をセットしている。必要に応じて変更
     
@@ -11,7 +12,12 @@
     
     // 残数が0以下の場合、結果ページへ遷移
     // (responseオブジェクトのsendRedirectメソッドを使用する)
+     if (totalNum <= 0) {
+        response.sendRedirect("result.jsp");
+    }
     
+     //String result = Utility.getStone(totalNum);
+   
 %>
 <!DOCTYPE html>
 <html>
@@ -31,7 +37,7 @@
       <%
           // todo:このprint分は仮の処理。実装が完了したら削除する。
           // 表示する文字列("●●～")をメソッドを使い取得し、取得した文字列を表示する
-          out.println("●●●●●●●●●●<br>●●●●●●●●●●<br>●●●●●");
+          //out.println(result);
       %>
     </p>
   </div>

@@ -14,11 +14,26 @@ public class Utility {
             return false;
         }
     }
-
     /**
      * 石の残数に応じて表示する"●"用のhtmlソースを生成します
+     * @param
      * @return
      */
     // todo:ここにgetStoneDisplayHtmlメソッドを定義
-
+    public static String getStone(int stoneCount) {
+    String result = "";
+    
+    for(int i = 0; i < stoneCount; i++) {
+    	result += "●";
+    
+    if ((i + 1) % 10 == 0) {
+        result +="<br>";
+        
+    
+    }
+    
+    }
+    
+    return result;
+    }
 }
