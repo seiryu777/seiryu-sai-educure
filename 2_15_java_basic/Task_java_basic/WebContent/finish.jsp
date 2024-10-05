@@ -1,9 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
   pageEncoding="UTF-8"%>
 <%
-  
-    // セッションからプレイヤー名を取得する
-   
+    // セッションから最後に石を取ったプレイヤーを取得
+    String lastPlayer = (String) session.getAttribute("lastPlayer");
+
+    // lastPlayerがnullの場合に備えてデフォルト値を設定
+    if (lastPlayer == null) {
+        lastPlayer = "A"; // デフォルトでAに設定
+    }
+
+    // 最後に取ったプレイヤーが負け、逆のプレイヤーが勝者になる
+    String winner = lastPlayer.equals("A") ? "B" : "A";
+
 %>
 <!DOCTYPE html>
 <html>
@@ -16,7 +24,7 @@
   <h1>石取りゲーム</h1>
   <div class="info">
     <h2>
-      勝者：プレイヤーxx！！
+      勝者：プレイヤー<%= winner %>！！
     </h2>
     <form action="index.jsp">
       <button class="btn" type="submit">先頭に戻る</button>

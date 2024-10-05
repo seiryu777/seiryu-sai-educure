@@ -20,7 +20,7 @@ public class Utility {
      * @return
      */
     // todo:ここにgetStoneDisplayHtmlメソッドを定義
-    public static String getStone(int stoneCount) {
+    public static String getStoneDisplayHtml(int stoneCount) {
     String result = "";
     
     for(int i = 0; i < stoneCount; i++) {
